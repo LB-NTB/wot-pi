@@ -1,0 +1,25 @@
+{
+  "name": "wot-pi",
+  "version": "1.0.0",
+  "description": "A Web of Things server for the Pi",
+  "main": "wot-pi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon wot-server.js"
+  },
+  "author": "Vlad Trifa",
+  "license": "Apache-2.0",
+  "keywords": [
+    "web of things",
+    "building the web of things"
+  ],
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "cors": "^2.7.1",
+    "express": "^4.16.3"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}

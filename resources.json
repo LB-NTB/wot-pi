@@ -1,0 +1,87 @@
+{
+  "pi": {
+    "name": "Pi",
+    "description": "Raspberry Pi als Web of Things Beispiel",
+    "port": 3000,
+    "sensors": {
+      "switch": {
+        "0": {
+          "name": "Switch 0",
+          "value": false,
+          "gpio": 0
+        },
+        "1": {
+          "name": "Switch 1",
+          "value": false,
+          "gpio": 1
+        },
+        "2": {
+          "name": "Switch 2",
+          "value": false,
+          "gpio": 2
+        },
+        "3": {
+          "name": "Switch 3",
+          "value": false,
+          "gpio": 3
+        }
+      } 
+    }, 
+    "actuators": {
+      "leds": {
+        "0": {
+          "name": "LED 0",
+          "value":0,
+          "gpio": 0
+        },
+        "1": {
+          "name": "LED 1",
+          "value":0,
+          "gpio": 1
+        },
+        "2": {
+          "name": "LED 2",
+          "value": false,
+          "gpio": 2
+        },
+        "3": {
+          "name": "LED 3",
+          "value": false,
+          "gpio": 3
+        },
+        "4": {
+          "name": "LED 4",
+          "value": false,
+          "gpio": 4
+        },
+        "5": {
+          "name": "LED 5",
+          "value": false,
+          "gpio": 5
+        },
+        "6": {
+          "name": "LED 6",
+          "value": false,
+          "gpio": 6
+        },
+        "7": {
+          "name": "LED 7",
+          "value": false,
+          "gpio": 7
+        }
+      }, 
+      "relays": {
+        "0": {
+          "name": "Relay 0",
+          "value": false,
+          "gpio": 0
+        },
+        "1": {
+          "name": "Relay 1",
+          "value": false,
+          "gpio": 1
+        }
+      } 
+    } 
+  } 
+}
